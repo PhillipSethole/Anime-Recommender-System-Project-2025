@@ -23,30 +23,34 @@ The project uses three datasets:
 The dataset is comprised of news Anime that is needed for the recommender system into categories based on their content, includes  `ID`, `name`, `genre`, `type`, `episodes` and `ratings`. You can find both the `train.csv` and `test.csv` datasets 
 
 
-**Dataset Features:**
-1. **Anime dataset** 
-| **Columns**                                                                                  | **Description**              
-|---------------------------------------------------------------------------------------------|--------------------   
-|anime_id |  myanimelist.net's unique id identifying an anime.
-|name | full name of anime.
-|genre | comma-separated list of genres for this anime.
-|type | movie, TV, OVA, etc.
-|episodes | the number of episodes in the series. (1 if movie).
-|rating | average rating out of 10 for this anime.
-|members | number of community members that are in this anime's "group".
+## Dataset Features
 
-2. **Train Dataset** 
-| **Columns**                                                                                  | **Description**              
-|---------------------------------------------------------------------------------------------|--------------------   
-|user_id | non-identifiable randomly generated user id.
-|anime_id | the anime that this user has rated.
-|rating | rating out of 10 this user has assigned (-1 if the user watched it but didn't assign a rating).
+### 1. Anime Dataset  
 
-3. **Test Dataset**
-| **Columns**                                                                                  | **Description**              
-|---------------------------------------------------------------------------------------------|--------------------   
-|user_id | non-identifiable randomly generated user id.
-|anime_id | the anime that this user has rated.
+| **Columns**   | **Description**  |  
+|--------------|-----------------|  
+| `anime_id`   | myanimelist.net's unique ID identifying an anime. |  
+| `name`       | Full name of the anime. |  
+| `genre`      | Comma-separated list of genres for this anime. |  
+| `type`       | Movie, TV, OVA, etc. |  
+| `episodes`   | The number of episodes in the series (1 if movie). |  
+| `rating`     | Average rating out of 10 for this anime. |  
+| `members`    | Number of community members in this anime's "group". |  
+
+### 2. Train Dataset  
+
+| **Columns**   | **Description**  |  
+|--------------|-----------------|  
+| `user_id`    | Non-identifiable randomly generated user ID. |  
+| `anime_id`   | The anime that this user has rated. |  
+| `rating`     | Rating out of 10 assigned by the user (-1 if the user watched it but didn't assign a rating). |  
+
+### 3. Test Dataset  
+
+| **Columns**   | **Description**  |  
+|--------------|-----------------|  
+| `user_id`    | Non-identifiable randomly generated user ID. |  
+| `anime_id`   | The anime that this user has rated. |  
 
 
 ## 3. Packages <a class="anchor" id="packages"></a>

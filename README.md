@@ -20,7 +20,7 @@ This project builds a smart anime recommendation system that helps users discove
 ## 2. Dataset <a class="anchor" id="dataset"></a>
 The project uses three datasets:
 
-The dataset is comprised of news Anime that is needed for the recommender system into categories based on their content, includes  `ID`, `name`, `genre`, `type`, `episodes` and `ratings`. You can find both the `train.csv` and `test.csv` datasets 
+The dataset is comprised of Anime content that is needed for a recommender system and the categories are based on `ID`, `name`, `genre`, `type`, `episodes` and `ratings`. You can find both the `train.csv` and `test.csv` datasets 
 
 
 ## Dataset Features
@@ -148,7 +148,7 @@ As a first step to becoming familiar with our web app's functioning, we recommen
 You should also be automatically directed to the base page of your web app. This should look something like:
 
 <div id="s_image" align="center">
-  <img src="" width="850" height="400" alt=""/>
+  <img src=""C:\Users\lebog\Documents\Team 2 Anime recommender system\Anime-Recommender-System-Project-2025\anime app screenshot.png"" width="850" height="400" alt=""/>
 </div>
 
 Congratulations! You've now officially deployed your first web application!
